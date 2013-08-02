@@ -2,6 +2,7 @@
 layout: post
 title: "OpenCPU 0.8 release!"
 category: posts
+cover: "http://imagescdn.tweaktown.com/news/2/7/27345_1_german_data_commissioner_orders_facebook_to_drop_its_real_name_policy_full.jpg"
 ---
 
 Almost 2 years after the initial beta versions, we release the first official version of the OpenCPU framework. 
