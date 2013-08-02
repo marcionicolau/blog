@@ -12,9 +12,9 @@ Based on experiences with the beta versions and new recent developments, OpenCPU
 This release comes with many completely new features
 
 - OpenCPU can be used either locally with the `opencpu` package, or in the cloud.
-- Added native support for compiling documents using knitr, brew and pandoc.
-- Revised API and new Javascript library with better support for Apps.
-- Direct access to R packages on CRAN and Github.
+- Native support for compiling documents using knitr, brew or pandoc.
+- Revised API and new Javascript library to build OpenCPU Apps.
+- Direct access in the cloud to R packages on CRAN and Github.
 - Execute R scripts or knitr/sweave scripts, straight from Gist.
 - Advanced security policies in the cloud server build on RAppArmor.
 
@@ -30,7 +30,7 @@ That's it! You can now use the OpenCPU API.
 
 ## OpenCPU Apps
 
-We are working on a Javascript library [opencpu.js](http://github.com/jeroenooms/openpcu.js) which makes it easy to build R web applications
+We are working on a Javascript library [opencpu.js](http://github.com/jeroenooms/opencpu.js) which makes it easy to build R web applications
 using OpenCPU. The repository of OpenCPU apps is simply the [opencpu github organization](http://github.com/opencpu). 
 After installing the `opencpu` package, you can try to install some of the example apps. 
 
