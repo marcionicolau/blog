@@ -55,9 +55,11 @@ opencpu$browse("library/nabel/man/html")
 Try some of the other apps as well!
 
 {% highlight r %}
+#yahoo finance app
 install_github("stocks", "opencpu")
 opencpu$browse("library/stocks/www")
 
+#plot stats for github users
 install_github("gitstats", "opencpu")
 opencpu$browse("library/gitstats/www")
 {% endhighlight %}
