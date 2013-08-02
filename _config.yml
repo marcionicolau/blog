@@ -8,9 +8,9 @@ production_url : http://news.opencpu.org
 description: "OpenCPU: producing and reproducing results."
 disqus_shortname: opencu
 #analytics: UA-32899481-1
-#gauges: 50f2b533613f5d7c8000000c
+gauges: 50f2b533613f5d7c8000000c
 author :
   name : Jeroen Ooms
   github : opencpu
   twitter : opencpu
-  email: jeroe@opencpu.org
+  email: jeroen.ooms@stat.ucla.edu
