@@ -6,7 +6,7 @@ rdiscount:
 title : OpenCPU News
 production_url : http://news.opencpu.org
 description: "OpenCPU: producing and reproducing results."
-disqus_shortname: opencu
+disqus_shortname: opencpu
 #analytics: UA-32899481-1
 gauges: 50f2b533613f5d7c8000000c
 author :
