@@ -8,7 +8,7 @@ cover: "http://imagescdn.tweaktown.com/news/2/7/27345_1_german_data_commissioner
 Almost 2 years after the initial beta versions, we release the first official version of the OpenCPU framework. 
 Based on experiences with the beta versions and new recent developments, OpenCPU version 0.8 has been rewritten from scratch.
 
-## New in this release
+# New in this release
 
 This release comes with many completely new features
 
@@ -31,7 +31,7 @@ library(opencpu)
     
 That's it! You can now use the OpenCPU API. 
 
-## OpenCPU Apps
+### OpenCPU Apps
 
 We are working on a Javascript library [opencpu.js](http://github.com/jeroenooms/opencpu.js) which makes it easy to build R web applications
 using OpenCPU. The repository of OpenCPU apps is simply the [opencpu github organization](http://github.com/opencpu). 
@@ -62,7 +62,7 @@ install_github("gitstats", "opencpu")
 opencpu$browse("library/gitstats/www")
 {% endhighlight %}
       
-## Much more to come
+#### Much more to come
 
 Over the upcoming weeks we will post more on this blog, on how to run apps in the cloud, share reproducible documents, and much more.
 
