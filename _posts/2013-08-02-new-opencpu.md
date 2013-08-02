@@ -39,7 +39,7 @@ After installing the `opencpu` package, you can try to install some of the examp
 
 For example the nabel application plots live data from the Swiss National Air Pollution Monitoring Network:   
 
-{% highlight r linenos=table %}
+{% highlight r %}
 #install app: http://github.com/opencpu/nabel
 install_github("nabel", "opencpu")
 opencpu$browse("library/nabel/www")
