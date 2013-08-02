@@ -1,38 +1,63 @@
 ---
 layout: post
-title: "New UP Version"
+title: "OpenCPU 0.8 release!"
 category: posts
 ---
 
-So I decided to release a new [UP][1] version. Changes include:
+Almost 2 years after the initial beta versions, we release the first official version of the OpenCPU framework. 
+Based on experiences with the beta versions and new recent developments, OpenCPU version 0.8 has been rewritten from scratch.
 
-- Bootstrap 3.0.0;
-- Last Font-Awesome version;
-- Improved Makefile and Rakefile;
-- Pygments for syntax highlight;
-- Bootstrap collapse plugin (navbar is now fully responsive);
-- Minor tweaks.
+## New in this release
 
-![Up 2](http://f.cl.ly/items/3S2m1X2I1V0s0E2P1s38/Captura%20de%20Tela%202013-04-08%20%C3%A0s%2000.37.30.png)
+This release comes with many completely new features
 
-So, update it if you want! It shall be easy, since I was doing it in my
-blog, and then import it back to [UP][1]. If you have any issues, you can
-ping me at twitter or other social network, or even email me.
+- OpenCPU can be used either locally with the `opencpu` package, or in the cloud.
+- Added native support for compiling documents using knitr, brew and pandoc.
+- Revised API and new Javascript library with better support for Apps.
+- Direct access to R packages on CRAN and Github.
+- Execute R scripts or knitr/sweave scripts, straight from Gist.
+- Advanced security policies in the cloud server build on RAppArmor.
 
-The general update guide is:
+## Kick the tires
 
-- Read the [readme][2];
-- Replace `Rakefile` and `makefile` with the new ones;
-- Copy the `package.json`;
-- replace `_assets` folder;
-- check the differences in default layout and apply it.
+The latest release of OpenCPU is available form github:
 
-The whole list of differences can be found [here][3].
+    library(devtools)
+    install_github("opencpu", "jeroenooms")
+    library(opencpu)
+    
+That's it! You can now use the OpenCPU API. 
 
-Hope you like this new version!
+## OpenCPU Apps
 
-[1]: https://github.com/caarlos0/up
-[2]: https://github.com/caarlos0/up/blob/bs3/readme.markdown
-[3]: https://github.com/caarlos0/up/compare/gh-pages...bs3
+We are working on a Javascript library [opencpu.js](http://github.com/jeroenooms/openpcu.js) which makes it easy to build R web applications
+using OpenCPU. The repository of OpenCPU apps is simply the [opencpu github organization](http://github.com/opencpu). 
+After installing the `opencpu` package, you can try to install some of the example apps. 
+
+For example the nabel application plots live data from the Swiss National Air Pollution Monitoring Network:   
+
+    install_github("nabel", "opencpu")
+    opencpu$browse("library/nabel/www")
+    
+This will popup your browser and send you to the app url. You can also use OpenCPU to look at the source code or documentation for this app:
+
+    opencpu$browse("library/nabel/R/nabel")
+    opencpu$browse("library/nabel/man/nabel")
+    opencpu$browse("library/nabel/man/html")
+    
+Try some of the other apps as well!
+
+    install_github("stocks", "opencpu")
+    opencpu$browse("library/stocks/www")
+    
+    install_github("gitstats", "opencpu")
+    opencpu$browse("library/gitstats/www")
+    
+## Much more to come
+
+Over the upcoming weeks we will post more on this blog, on how to run apps in the cloud, share reproducible documents, and much more.
+
+
+    
 
 
