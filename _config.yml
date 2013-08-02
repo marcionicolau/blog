@@ -3,7 +3,7 @@ pygments: true
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
-title : OpenCPU
+title : NEWS
 production_url : http://news.opencpu.org
 description: "OpenCPU: producing and reproducing results."
 disqus_shortname: opencu
