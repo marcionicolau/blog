@@ -40,6 +40,7 @@ After installing the `opencpu` package, you can try to install some of the examp
 For example the nabel application plots live data from the Swiss National Air Pollution Monitoring Network:   
 
 {% highlight r %}
+#install app: http://github.com/opencpu/nabel
 install_github("nabel", "opencpu")
 opencpu$browse("library/nabel/www")
 {% endhighlight %}    
@@ -47,9 +48,12 @@ opencpu$browse("library/nabel/www")
 This will popup your browser and send you to the app url. You can also use OpenCPU to look at the source code or documentation for this app:
 
 {% highlight r %}
+#Source code for 'nabel' function
 opencpu$browse("library/nabel/R/nabel")
-opencpu$browse("library/nabel/man/nabel")
-opencpu$browse("library/nabel/man/html")
+
+#manuals in various formats
+opencpu$browse("library/nabel/man/nabel/text")
+opencpu$browse("library/nabel/man/nabel/html")
 {% endhighlight %}
     
 Try some of the other apps as well!
