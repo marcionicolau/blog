@@ -4,7 +4,7 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 title : Carlos Becker
-production_url : http://carlosbecker.com
+production_url : http://jeroenooms.github.io/blog
 description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Carlos Alexandro Becker."
 disqus_shortname: caarlos0blog
 analytics: UA-32899481-1
