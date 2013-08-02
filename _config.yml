@@ -3,9 +3,9 @@ pygments: true
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
-title : Carlos Becker
-production_url : http://jeroenooms.github.io/blog
-description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Carlos Alexandro Becker."
+title : OpenCPU
+production_url : http://news.opencpu.org
+description: "OpenCPU: producing and reproducing results."
 disqus_shortname: caarlos0blog
 analytics: UA-32899481-1
 gauges: 50f2b533613f5d7c8000000c
