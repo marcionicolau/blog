@@ -23,7 +23,8 @@ This release comes with many completely new features
 
 The latest release of OpenCPU is available form github:
 
-{% highlight r linenos %} library(devtools)
+{% highlight r %}
+library(devtools)
 install_github("opencpu", "jeroenooms")
 library(opencpu)
 {% endhighlight %}
