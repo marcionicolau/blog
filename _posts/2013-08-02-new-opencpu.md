@@ -23,10 +23,10 @@ This release comes with many completely new features
 
 The latest release of OpenCPU is available form github:
 
-{% highlight javascript %}
-	library(devtools)
-	install_github("opencpu", "jeroenooms")
-	library(opencpu)
+{% highlight S %}
+library(devtools)
+install_github("opencpu", "jeroenooms")
+library(opencpu)
 {% endhighlight %}
     
 That's it! You can now use the OpenCPU API. 
@@ -40,26 +40,26 @@ After installing the `opencpu` package, you can try to install some of the examp
 For example the nabel application plots live data from the Swiss National Air Pollution Monitoring Network:   
 
 {% highlight r %}
-    install_github("nabel", "opencpu")
-    opencpu$browse("library/nabel/www")
+install_github("nabel", "opencpu")
+opencpu$browse("library/nabel/www")
 {% endhighlight %}    
     
 This will popup your browser and send you to the app url. You can also use OpenCPU to look at the source code or documentation for this app:
 
 {% highlight r %}
-    opencpu$browse("library/nabel/R/nabel")
-    opencpu$browse("library/nabel/man/nabel")
-    opencpu$browse("library/nabel/man/html")
+opencpu$browse("library/nabel/R/nabel")
+opencpu$browse("library/nabel/man/nabel")
+opencpu$browse("library/nabel/man/html")
 {% endhighlight %}
     
 Try some of the other apps as well!
 
 {% highlight r %}
-    install_github("stocks", "opencpu")
-    opencpu$browse("library/stocks/www")
-    
-    install_github("gitstats", "opencpu")
-    opencpu$browse("library/gitstats/www")
+install_github("stocks", "opencpu")
+opencpu$browse("library/stocks/www")
+
+install_github("gitstats", "opencpu")
+opencpu$browse("library/gitstats/www")
 {% endhighlight %}
       
 ## Much more to come
